@@ -9,6 +9,22 @@
       <delay>1000</delay>
     </con:config>
   </con:testStep>
+  <con:testStep type="httprequest" name="HTTP Request" id="c6ce733b-f964-4205-8988-d843343afb95">
+    <con:settings/>
+    <con:config method="GET" xsi:type="con:HttpRequest" id="6371d534-9e8b-458b-a351-1063bc1fd2bf" name="HTTP Request" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>http://localhost:8080</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
