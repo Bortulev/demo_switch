@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="b5a6e1f0-9c1c-488d-8f99-ee217ad5540a" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Pine" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="b5a6e1f0-9c1c-488d-8f99-ee217ad5540afileName">Pine</con:setting>
+  </con:settings>
+  <con:testStep type="delay" name="Delay 2" id="348919e4-d069-4d7c-8a7f-7939f623bb16">
+    <con:settings/>
+    <con:config>
+      <delay>1000</delay>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

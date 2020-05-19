@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="e61cec60-938d-44c5-9734-c89c98b128f7" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Apple" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e61cec60-938d-44c5-9734-c89c98b128f7fileName">Apple</con:setting>
+  </con:settings>
+  <con:testStep type="delay" name="Delay 1" id="636db380-2264-40a0-8a38-67b3dad3e75a">
+    <con:settings/>
+    <con:config>
+      <delay>1000</delay>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
