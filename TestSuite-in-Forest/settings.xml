@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="421d6c82-7905-463d-9c84-37252ff78d76" name="TestSuite in Forest" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="421d6c82-7905-463d-9c84-37252ff78d76fileName">TestSuite-in-Forest</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
